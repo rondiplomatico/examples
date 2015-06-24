@@ -48,11 +48,12 @@ function(RECURSE curdir)
                 GET_FULLNAME(${curdir} EXAMPLE_FULLNAME)
                 
                 # Generation of CMakeLists.txt files from template
-                #if (NOT EXISTS ${curdir}/CMakeLists.txt)
+                # DEVELOPER USE ONLY!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                if (NOT EXISTS ${curdir}/CMakeLists.txt)
                     message(STATUS "Configuring example ${EXAMPLE_FULLNAME}")
                     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.example.template.cmake
                         ${curdir}/CMakeLists.txt @ONLY)
-                #endif()
+                endif()
                     
                 ExternalProject_Add(${EXAMPLE_FULLNAME}
         		    PREFIX ${OPENCMISS_EXAMPLES_BUILD_DIR}
