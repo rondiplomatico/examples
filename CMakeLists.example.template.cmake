@@ -16,6 +16,11 @@ endif()
 set(CMAKE_MODULE_PATH ${OPENCMISS_INSTALL_DIR})
 find_package(OpenCMISS REQUIRED)
 
+if (CMAKE_BUILD_TYPE_INITIALIZED_TO_DEFAULT)
+    message(STATUS "No build type specified. Using same type ${OPENCMISS_BUILD_TYPE} as OpenCMISS installation")
+    set(CMAKE_BUILD_TYPE ${OPENCMISS_BUILD_TYPE})
+endif()
+
 #################### Actual example code ####################
 cmake_minimum_required(VERSION ${OPENCMISS_CMAKE_MIN_VERSION} FATAL_ERROR)
 project(OpenCMISS-Example VERSION 1.0 LANGUAGES Fortran C CXX)
