@@ -14,10 +14,6 @@
 # @author Daniel Wirtz @date April 9th, 2015
 
 # Paths and stuff
-if (NOT OPENCMISS_INSTALL_DIR)
-    set(OPENCMISS_INSTALL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../install)
-    get_filename_component(OPENCMISS_INSTALL_DIR ${OPENCMISS_INSTALL_DIR} ABSOLUTE)
-endif()
 list(APPEND CMAKE_MODULE_PATH ${OPENCMISS_INSTALL_DIR})
 find_package(OpenCMISS REQUIRED)
 
@@ -28,9 +24,7 @@ include(ExternalProject)
 OPENCMISS_IMPORT()
 
 # Set default build/install dirs unless specified
-if (NOT OPENCMISS_EXAMPLES_BUILD_DIR)
-    set(OPENCMISS_EXAMPLES_BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR})
-endif()
+set(OPENCMISS_EXAMPLES_BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR})
 
 function(RECURSE curdir)
     file(GLOB content RELATIVE ${curdir} ${curdir}/*)
@@ -47,10 +41,11 @@ function(RECURSE curdir)
                 # Add as external project right away
                 GET_FULLNAME(${curdir} EXAMPLE_FULLNAME)
                 
+                message(STATUS "Configuring example ${EXAMPLE_FULLNAME}")
+                
                 # Generation of CMakeLists.txt files from template
                 # DEVELOPER USE ONLY!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 if (NOT EXISTS ${curdir}/CMakeLists.txt)
-                    message(STATUS "Configuring example ${EXAMPLE_FULLNAME}")
                     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.example.template.cmake
                         ${curdir}/CMakeLists.txt @ONLY)
                 endif()
