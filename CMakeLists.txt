@@ -32,13 +32,6 @@ if (NOT OPENCMISS_EXAMPLES_BUILD_DIR)
     set(OPENCMISS_EXAMPLES_BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR})
 endif()
 
-# For shared libs, use the correct install RPATH to enable binaries to find the shared libs.
-# See http://www.cmake.org/Wiki/CMake_RPATH_handling
-set(EXTRA_ARGS 
-    -DCMAKE_INSTALL_RPATH=${OPENCMISS_INSTALL_DIR}/lib
-    -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE
-)
-
 function(RECURSE curdir)
     file(GLOB content RELATIVE ${curdir} ${curdir}/*)
     SET(sources )
@@ -75,6 +68,7 @@ function(RECURSE curdir)
             		BINARY_DIR ${OPENCMISS_EXAMPLES_BUILD_DIR}/${EXAMPLE_FULLNAME}
             		CMAKE_ARGS 
             		    ${EXTRA_ARGS}
+            		    -DOPENCMISS_INSTALL_DIR=${OPENCMISS_INSTALL_DIR}
             		    -DCMAKE_INSTALL_PREFIX=${curdir}
             		    -DCMAKE_OBJECT_PATH_MAX=500
             	)
