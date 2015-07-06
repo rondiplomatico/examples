@@ -15,13 +15,13 @@
 
 # Paths and stuff
 list(APPEND CMAKE_MODULE_PATH ${OPENCMISS_INSTALL_DIR})
-find_package(OpenCMISS REQUIRED)
+find_package(OpenCMISSToolchain REQUIRED)
 
-cmake_minimum_required(VERSION ${OPENCMISS_CMAKE_MIN_VERSION} FATAL_ERROR)
+cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(OpenCMISS-Examples VERSION 1.0 LANGUAGES C)
 include(ExternalProject)
 
-OPENCMISS_IMPORT()
+find_package(OpenCMISS REQUIRED)
 
 # Set default build/install dirs unless specified
 set(OPENCMISS_EXAMPLES_BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR})
@@ -45,10 +45,10 @@ function(RECURSE curdir)
                 
                 # Generation of CMakeLists.txt files from template
                 # DEVELOPER USE ONLY!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                if (NOT EXISTS ${curdir}/CMakeLists.txt)
+                #if (NOT EXISTS ${curdir}/CMakeLists.txt)
                     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.example.template.cmake
                         ${curdir}/CMakeLists.txt @ONLY)
-                endif()
+                #endif()
                     
                 ExternalProject_Add(${EXAMPLE_FULLNAME}
         		    PREFIX ${OPENCMISS_EXAMPLES_BUILD_DIR}
