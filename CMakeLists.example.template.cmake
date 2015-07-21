@@ -1,17 +1,13 @@
 # This is the main build file for OpenCMISS examples using the CMake build system
 #
-# If standard procedure has been followed building OpenCMISS using CMake, all you
-# need to do is set CMAKE_PREFIX_PATH to the <OPENCMISS_ROOT>/install directory.
+# All you need to do is set the CMAKE_PREFIX_PATH to the <OPENCMISS_ROOT>/install/<archpath>? directory.
 # The script will do the rest.
 #
-# Otherwise, if the installation is located elsewhere on your system
-# (it is placed inside the OpenCMISS installation folder by default), you need to additionally add that path to
-# the CMAKE_MODULE_PATH variable.
-
 # Convenience - capture the install dir from the environment (if not specified directly)
-#if (EXISTS $ENV{OPENCMISS_PREFIX_PATH} AND NOT OPENCMISS_PREFIX_PATH)
-#    file(TO_CMAKE_PATH "$ENV{OPENCMISS_INSTALL_DIR}" OPENCMISS_INSTALL_DIR)
-#endif()
+if (EXISTS $ENV{OPENCMISS_PREFIX_PATH})
+    file(TO_CMAKE_PATH "$ENV{OPENCMISS_PREFIX_PATH}" OPENCMISS_PREFIX_PATH)
+    list(APPEND CMAKE_PREFIX_PATH ${OPENCMISS_PREFIX_PATH})
+endif()
 
 #################### Toolchain setup ####################
 

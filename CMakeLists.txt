@@ -14,6 +14,11 @@
 # this will have the script automatically detect the opencmiss installation.
 get_filename_component(INSTALL_GUESS "${CMAKE_CURRENT_SOURCE_DIR}/../install" ABSOLUTE)
 list(APPEND CMAKE_PREFIX_PATH ${INSTALL_GUESS})
+# Convenience - capture the install dir from the environment (if not specified directly)
+if (EXISTS $ENV{OPENCMISS_PREFIX_PATH})
+    file(TO_CMAKE_PATH "$ENV{OPENCMISS_PREFIX_PATH}" OPENCMISS_PREFIX_PATH)
+    list(APPEND CMAKE_PREFIX_PATH ${OPENCMISS_PREFIX_PATH})
+endif()
 
 find_package(OpenCMISSToolchain REQUIRED)
 
