@@ -1,10 +1,7 @@
 # This script generates CMakeLists.txt files for each example and adds them as external project
 # The only thing necessary to build them against an existing OpenCMISS installation is to specify the 
-# installation directory/prefix OPENCMISS_INSTALL_DIR containing the build context file (OpenCMISSBuildContext.cmake)
-#
-# You can change the build/install locations of the examples by providing
-# OPENCMISS_EXAMPLES_BUILD_DIR and OPENCMISS_EXAMPLES_INSTALL_PREFIX.
-#
+# installation directory/prefix CMAKE_PREFIX_PATH containing the config files
+# (opencmiss-config.cmake / opencmisstoolchain-config.cmake)
 #
 # The USE MPI modification for windows has been made with eclipse, looking for
 # (\ )*USE MPI\R((.|\R)*)IMPLICIT NONE\R
@@ -13,15 +10,16 @@
 #
 # @author Daniel Wirtz @date April 9th, 2015
 
-# Paths and stuff
-list(APPEND CMAKE_MODULE_PATH ${OPENCMISS_INSTALL_DIR})
+# If the examples have been cloned to OPENCMISS_ROOT/examples and not architecture path is used,
+# this will have the script automatically detect the opencmiss installation.
+get_filename_component(INSTALL_GUESS "${CMAKE_CURRENT_SOURCE_DIR}/../install" ABSOLUTE)
+list(APPEND CMAKE_PREFIX_PATH ${INSTALL_GUESS})
+
 find_package(OpenCMISSToolchain REQUIRED)
 
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(OpenCMISS-Examples VERSION 1.0 LANGUAGES C)
 include(ExternalProject)
-
-find_package(OpenCMISS REQUIRED)
 
 # Set default build/install dirs unless specified
 set(OPENCMISS_EXAMPLES_BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR})
@@ -45,10 +43,10 @@ function(RECURSE curdir)
                 
                 # Generation of CMakeLists.txt files from template
                 # DEVELOPER USE ONLY!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                #if (NOT EXISTS ${curdir}/CMakeLists.txt)
+                if (NOT EXISTS ${curdir}/CMakeLists.txt OR FORCEGEN)
                     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.example.template.cmake
                         ${curdir}/CMakeLists.txt @ONLY)
-                #endif()
+                endif()
                     
                 ExternalProject_Add(${EXAMPLE_FULLNAME}
         		    PREFIX ${OPENCMISS_EXAMPLES_BUILD_DIR}
@@ -64,7 +62,8 @@ function(RECURSE curdir)
             		BINARY_DIR ${OPENCMISS_EXAMPLES_BUILD_DIR}/${EXAMPLE_FULLNAME}
             		CMAKE_ARGS 
             		    ${EXTRA_ARGS}
-            		    -DOPENCMISS_INSTALL_DIR=${OPENCMISS_INSTALL_DIR}
+            		    -DCMAKE_PREFIX_PATH:PATH=${CMAKE_PREFIX_PATH}
+            		    -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
             		    -DCMAKE_INSTALL_PREFIX=${curdir}
             		    -DCMAKE_OBJECT_PATH_MAX=500
             	)
