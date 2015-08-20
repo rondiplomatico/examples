@@ -30,3 +30,11 @@ ep_stamps
 
 # eclipse
 .settings
+
+# test related
+out.txt
+*.exelem
+*.exnode
+*.opanal
+tmp.cellml2*
+*.dat

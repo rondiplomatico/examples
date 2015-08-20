@@ -29,6 +29,8 @@ include(ExternalProject)
 # Set default build/install dirs unless specified
 set(OPENCMISS_EXAMPLES_BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR})
 
+enable_testing()
+
 function(RECURSE curdir)
     file(GLOB content RELATIVE ${curdir} ${curdir}/*)
     SET(sources )
@@ -72,6 +74,11 @@ function(RECURSE curdir)
             		    -DCMAKE_INSTALL_PREFIX=${curdir}
             		    -DCMAKE_OBJECT_PATH_MAX=500
             	)
+            	
+            	add_test(NAME test_${EXAMPLE_FULLNAME}
+            	    COMMAND ${CMAKE_COMMAND} -DWD=${curdir}
+            	        -P ${CMAKE_CURRENT_SOURCE_DIR}/TestHelper.cmake)
+            	set_tests_properties (test_${EXAMPLE_FULLNAME} PROPERTIES TIMEOUT 5)
             endif()
         endif()
     endforeach()
