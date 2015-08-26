@@ -41,19 +41,13 @@ function(RECURSE curdir)
         else()
             get_filename_component(fname ${filename} NAME)
             string(FIND "${curdir}" "${CMAKE_CURRENT_BINARY_DIR}" _TMP)
-            if (fname STREQUAL Makefile AND NOT curdir STREQUAL CMAKE_CURRENT_SOURCE_DIR)
+            # Pick folders with either a CMakeLists.txt or Makefile
+            if (fname STREQUAL CMakeLists.txt AND NOT curdir STREQUAL CMAKE_CURRENT_SOURCE_DIR)
                 
                 # Add as external project right away
                 GET_FULLNAME(${curdir} EXAMPLE_FULLNAME)
                 
                 message(STATUS "Configuring example ${EXAMPLE_FULLNAME}")
-                
-                # Generation of CMakeLists.txt files from template
-                # DEVELOPER USE ONLY!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                if (NOT EXISTS ${curdir}/CMakeLists.txt OR FORCEGEN)
-                    configure_file(${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.example.template.cmake
-                        ${curdir}/CMakeLists.txt @ONLY)
-                endif()
                     
                 ExternalProject_Add(${EXAMPLE_FULLNAME}
         		    PREFIX ${OPENCMISS_EXAMPLES_BUILD_DIR}
