@@ -14,7 +14,7 @@
 ################################ DO NOT EDIT THIS PART !!!!!!!!!!! #####################################################
 ########################################################################################################################
 # Convenience: The OPENCMISS_INSTALL_DIR may also be defined in the environment.
-if (NOT DEFINED OPENCMISS_INSTALL_DIR AND EXISTS $ENV{OPENCMISS_INSTALL_DIR})
+if (NOT DEFINED OPENCMISS_INSTALL_DIR AND EXISTS "$ENV{OPENCMISS_INSTALL_DIR}")
     file(TO_CMAKE_PATH "$ENV{OPENCMISS_INSTALL_DIR}" OPENCMISS_INSTALL_DIR)
 endif()
 
