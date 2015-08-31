@@ -14,7 +14,7 @@
 ################################ DO NOT EDIT THIS PART !!!!!!!!!!! #####################################################
 ########################################################################################################################
 # Convenience: The OPENCMISS_INSTALL_DIR may also be defined in the environment.
-if (NOT DEFINED OPENCMISS_INSTALL_DIR AND EXISTS $ENV{OPENCMISS_INSTALL_DIR})
+if (NOT DEFINED OPENCMISS_INSTALL_DIR AND EXISTS "$ENV{OPENCMISS_INSTALL_DIR}")
     file(TO_CMAKE_PATH "$ENV{OPENCMISS_INSTALL_DIR}" OPENCMISS_INSTALL_DIR)
 endif()
 
@@ -33,11 +33,11 @@ endif()
 # Project setup
 cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 project(OpenCMISS-Example VERSION 1.0 LANGUAGES Fortran C CXX)
-
+set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 # One could specify CMAKE_PREFIX_PATH directly, however using OPENCMISS_INSTALL_DIR will be more intuitive, eh?
 list(APPEND CMAKE_PREFIX_PATH ${OPENCMISS_INSTALL_DIR})
 # Look for a matching OpenCMISS!
-find_package(OpenCMISS 1.0 REQUIRED CONFIG)
+find_package(OpenCMISS REQUIRED CONFIG)
 
 ########################################################################################################################
 ################################ ONLY EDIT BELOW HERE !!!!!!!!!!! ######################################################

@@ -13,18 +13,25 @@
 # If the examples have been cloned to OPENCMISS_ROOT/examples and not architecture path is used,
 # this will have the script automatically detect the opencmiss installation.
 get_filename_component(INSTALL_GUESS "${CMAKE_CURRENT_SOURCE_DIR}/../install" ABSOLUTE)
-list(APPEND CMAKE_PREFIX_PATH ${INSTALL_GUESS})
-# Convenience - capture the install dir from the environment (if not specified directly)
-if (EXISTS $ENV{OPENCMISS_PREFIX_PATH})
-    file(TO_CMAKE_PATH "$ENV{OPENCMISS_PREFIX_PATH}" OPENCMISS_PREFIX_PATH)
-    list(APPEND CMAKE_PREFIX_PATH ${OPENCMISS_PREFIX_PATH})
+# Convenience: The OPENCMISS_INSTALL_DIR may also be defined in the environment.
+if (NOT DEFINED OPENCMISS_INSTALL_DIR AND EXISTS "$ENV{OPENCMISS_INSTALL_DIR}")
+    file(TO_CMAKE_PATH "$ENV{OPENCMISS_INSTALL_DIR}" OPENCMISS_INSTALL_DIR)
+elseif(EXISTS "${INSTALL_GUESS}/opencmiss-config.cmake")
+    set(OPENCMISS_INSTALL_DIR "${INSTALL_GUESS}")
 endif()
-
-find_package(OpenCMISSToolchain REQUIRED)
+if (OPENCMISS_INSTALL_DIR)
+    list(APPEND CMAKE_PREFIX_PATH ${OPENCMISS_INSTALL_DIR})
+endif()
 
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(OpenCMISS-Examples VERSION 1.0 LANGUAGES C)
 include(ExternalProject)
+
+find_package(OpenCMISS CONFIG REQUIRED)
+
+if (NOT DEFINED OPENCMISS_BUILD_TYPE)
+    set(OPENCMISS_BUILD_TYPE ${CMAKE_BUILD_TYPE})
+endif()
 
 # Set default build/install dirs unless specified
 set(OPENCMISS_EXAMPLES_BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR})
@@ -63,8 +70,9 @@ function(RECURSE curdir)
             		BINARY_DIR ${OPENCMISS_EXAMPLES_BUILD_DIR}/${EXAMPLE_FULLNAME}
             		CMAKE_ARGS 
             		    ${EXTRA_ARGS}
-            		    -DCMAKE_PREFIX_PATH:PATH=${CMAKE_PREFIX_PATH}
+            		    -DOPENCMISS_INSTALL_DIR:PATH=${OPENCMISS_INSTALL_DIR}
             		    -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
+            		    -DOPENCMISS_BUILD_TYPE=${OPENCMISS_BUILD_TYPE}
             		    -DCMAKE_INSTALL_PREFIX=${curdir}
             		    -DCMAKE_OBJECT_PATH_MAX=500
             	)
