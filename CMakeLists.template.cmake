@@ -28,6 +28,7 @@ if (TOOLCHAIN)
     else()
         message(WARNING "TOOLCHAIN specified but OpenCMISS config script could not be found at ${_OCTC}. Using CMake defaults.")
     endif()
+    unset(_OCTC)
 endif()
 
 # Project setup
