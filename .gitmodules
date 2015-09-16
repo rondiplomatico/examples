@@ -481,3 +481,18 @@
 [submodule "ClassicalField/ReactionDiffusion/ReactionDiffusionNoSource1D"]
 	path = ClassicalField/ReactionDiffusion/ReactionDiffusionNoSource1D
 	url = https://github.com/OpenCMISS-Examples/classicalfield_reactiondiffusion_reactiondiffusionnosource1d
+[submodule "FiniteElasticity/RightBiceps/Fortran"]
+	path = FiniteElasticity/RightBiceps/Fortran
+	url = https://github.com/OpenCMISS-Examples/finiteelasticity_rightbiceps_fortran
+[submodule "cellml/model-integration/Fortran"]
+	path = cellml/model-integration/Fortran
+	url = https://github.com/OpenCMISS-Examples/cellml_model-integration_fortran
+[submodule "MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/simple_geometry"]
+	path = MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/simple_geometry
+	url = https://github.com/OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_simple_geomet_d78fb
+[submodule "MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/while_loop"]
+	path = MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/while_loop
+	url = https://github.com/OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_while_loop
+[submodule "MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/titin_10"]
+	path = MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/titin_10
+	url = https://github.com/OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_titin_10
