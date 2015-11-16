@@ -1,498 +1,504 @@
 [submodule "ClassicalField/Laplace/Laplace/C"]
 	path = ClassicalField/Laplace/Laplace/C
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_laplace_c
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_laplace_c
 [submodule "42TestingPoints/SinglePhysics/LinearProblems/StaticProblems/Stokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/100k"]
 	path = 42TestingPoints/SinglePhysics/LinearProblems/StaticProblems/Stokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/100k
-	url = https://github.com/OpenCMISS-Examples/42testingpoints_singlephysics_linearproblems_staticproblems_stokes_3d_hex_quadraticvelocit_7e5f3
+	url = git@github.com:OpenCMISS-Examples/42testingpoints_singlephysics_linearproblems_staticproblems_stokes_3d_hex_quadraticvelocit_7e5f3
 [submodule "42TestingPoints/SinglePhysics/LinearProblems/StaticProblems/Stokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/1k"]
 	path = 42TestingPoints/SinglePhysics/LinearProblems/StaticProblems/Stokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/1k
-	url = https://github.com/OpenCMISS-Examples/42testingpoints_singlephysics_linearproblems_staticproblems_stokes_3d_hex_quadraticvelocit_7e5fb
+	url = git@github.com:OpenCMISS-Examples/42testingpoints_singlephysics_linearproblems_staticproblems_stokes_3d_hex_quadraticvelocit_7e5fb
 [submodule "42TestingPoints/SinglePhysics/LinearProblems/StaticProblems/Stokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/10k"]
 	path = 42TestingPoints/SinglePhysics/LinearProblems/StaticProblems/Stokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/10k
-	url = https://github.com/OpenCMISS-Examples/42testingpoints_singlephysics_linearproblems_staticproblems_stokes_3d_hex_quadraticvelocit_9d05f
+	url = git@github.com:OpenCMISS-Examples/42testingpoints_singlephysics_linearproblems_staticproblems_stokes_3d_hex_quadraticvelocit_9d05f
 [submodule "42TestingPoints/SinglePhysics/NonlinearProblems/StaticProblems/NavierStokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/100k"]
 	path = 42TestingPoints/SinglePhysics/NonlinearProblems/StaticProblems/NavierStokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/100k
-	url = https://github.com/OpenCMISS-Examples/42testingpoints_singlephysics_nonlinearproblems_staticproblems_navierstokes_3d_hex_quadrat_f030c
+	url = git@github.com:OpenCMISS-Examples/42testingpoints_singlephysics_nonlinearproblems_staticproblems_navierstokes_3d_hex_quadrat_f030c
 [submodule "42TestingPoints/SinglePhysics/NonlinearProblems/StaticProblems/NavierStokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/1k"]
 	path = 42TestingPoints/SinglePhysics/NonlinearProblems/StaticProblems/NavierStokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/1k
-	url = https://github.com/OpenCMISS-Examples/42testingpoints_singlephysics_nonlinearproblems_staticproblems_navierstokes_3d_hex_quadrat_f3276
+	url = git@github.com:OpenCMISS-Examples/42testingpoints_singlephysics_nonlinearproblems_staticproblems_navierstokes_3d_hex_quadrat_f3276
 [submodule "42TestingPoints/SinglePhysics/NonlinearProblems/StaticProblems/NavierStokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/10k"]
 	path = 42TestingPoints/SinglePhysics/NonlinearProblems/StaticProblems/NavierStokes/3D/HEX/QuadraticVelocityLinearPressure/LEVEL_3/10k
-	url = https://github.com/OpenCMISS-Examples/42testingpoints_singlephysics_nonlinearproblems_staticproblems_navierstokes_3d_hex_quadrat_6bea4
+	url = git@github.com:OpenCMISS-Examples/42testingpoints_singlephysics_nonlinearproblems_staticproblems_navierstokes_3d_hex_quadrat_6bea4
 [submodule "InterfaceExamples/InputCoupledStokes"]
 	path = InterfaceExamples/InputCoupledStokes
-	url = https://github.com/OpenCMISS-Examples/interfaceexamples_inputcoupledstokes
+	url = git@github.com:OpenCMISS-Examples/interfaceexamples_inputcoupledstokes
 [submodule "InterfaceExamples/InputCoupledLaplace"]
 	path = InterfaceExamples/InputCoupledLaplace
-	url = https://github.com/OpenCMISS-Examples/interfaceexamples_inputcoupledlaplace
+	url = git@github.com:OpenCMISS-Examples/interfaceexamples_inputcoupledlaplace
 [submodule "InterfaceExamples/InputUnCoupledLaplace"]
 	path = InterfaceExamples/InputUnCoupledLaplace
-	url = https://github.com/OpenCMISS-Examples/interfaceexamples_inputuncoupledlaplace
+	url = git@github.com:OpenCMISS-Examples/interfaceexamples_inputuncoupledlaplace
 [submodule "InterfaceExamples/CoupledFluidSolid"]
 	path = InterfaceExamples/CoupledFluidSolid
-	url = https://github.com/OpenCMISS-Examples/interfaceexamples_coupledfluidsolid
+	url = git@github.com:OpenCMISS-Examples/interfaceexamples_coupledfluidsolid
 [submodule "InterfaceExamples/UnCoupledLaplace"]
 	path = InterfaceExamples/UnCoupledLaplace
-	url = https://github.com/OpenCMISS-Examples/interfaceexamples_uncoupledlaplace
+	url = git@github.com:OpenCMISS-Examples/interfaceexamples_uncoupledlaplace
 [submodule "InterfaceExamples/CoupledLaplace"]
 	path = InterfaceExamples/CoupledLaplace
-	url = https://github.com/OpenCMISS-Examples/interfaceexamples_coupledlaplace
+	url = git@github.com:OpenCMISS-Examples/interfaceexamples_coupledlaplace
 [submodule "FiniteElasticity/LargeUniAxialExtension/Fortran"]
 	path = FiniteElasticity/LargeUniAxialExtension/Fortran
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_largeuniaxialextension_fortran
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_largeuniaxialextension_fortran
 [submodule "FiniteElasticity/MixedBoundaryConditions"]
 	path = FiniteElasticity/MixedBoundaryConditions
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_mixedboundaryconditions
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_mixedboundaryconditions
 [submodule "FiniteElasticity/QuadraticEllipsoidCostaReadIn"]
 	path = FiniteElasticity/QuadraticEllipsoidCostaReadIn
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_quadraticellipsoidcostareadin
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_quadraticellipsoidcostareadin
 [submodule "FiniteElasticity/Membrane/MembraneExtension3DSpaceTilted"]
 	path = FiniteElasticity/Membrane/MembraneExtension3DSpaceTilted
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_membrane_membraneextension3dspacetilted
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_membrane_membraneextension3dspacetilted
 [submodule "FiniteElasticity/Membrane/MembraneExtension3DSpaceFlat"]
 	path = FiniteElasticity/Membrane/MembraneExtension3DSpaceFlat
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_membrane_membraneextension3dspaceflat
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_membrane_membraneextension3dspaceflat
 [submodule "FiniteElasticity/Membrane/MembraneExtension2DSpace"]
 	path = FiniteElasticity/Membrane/MembraneExtension2DSpace
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_membrane_membraneextension2dspace
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_membrane_membraneextension2dspace
 [submodule "FiniteElasticity/SimpleShear/Fortran"]
 	path = FiniteElasticity/SimpleShear/Fortran
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_simpleshear_fortran
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_simpleshear_fortran
 [submodule "FiniteElasticity/TriQuadraticCube"]
 	path = FiniteElasticity/TriQuadraticCube
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_triquadraticcube
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_triquadraticcube
 [submodule "FiniteElasticity/UniAxialExtensionLoadIncrements"]
 	path = FiniteElasticity/UniAxialExtensionLoadIncrements
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_uniaxialextensionloadincrements
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_uniaxialextensionloadincrements
 [submodule "FiniteElasticity/TriCubicAxialExtension"]
 	path = FiniteElasticity/TriCubicAxialExtension
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_tricubicaxialextension
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_tricubicaxialextension
 [submodule "FiniteElasticity/testingPoints"]
 	path = FiniteElasticity/testingPoints
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_testingpoints
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_testingpoints
 [submodule "FiniteElasticity/UniAxialExtensionOrthotropic"]
 	path = FiniteElasticity/UniAxialExtensionOrthotropic
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_uniaxialextensionorthotropic
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_uniaxialextensionorthotropic
 [submodule "FiniteElasticity/UniAxialExtensionCompressible"]
 	path = FiniteElasticity/UniAxialExtensionCompressible
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_uniaxialextensioncompressible
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_uniaxialextensioncompressible
 [submodule "FiniteElasticity/SimplexElements/LinearTet"]
 	path = FiniteElasticity/SimplexElements/LinearTet
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_simplexelements_lineartet
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_simplexelements_lineartet
 [submodule "FiniteElasticity/SimplexElements/LargeQuadraticTet"]
 	path = FiniteElasticity/SimplexElements/LargeQuadraticTet
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_simplexelements_largequadratictet
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_simplexelements_largequadratictet
 [submodule "FiniteElasticity/SimplexElements/QuadraticTet"]
 	path = FiniteElasticity/SimplexElements/QuadraticTet
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_simplexelements_quadratictet
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_simplexelements_quadratictet
 [submodule "FiniteElasticity/MooneyRivlinInCellML"]
 	path = FiniteElasticity/MooneyRivlinInCellML
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_mooneyrivlinincellml
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_mooneyrivlinincellml
 [submodule "FiniteElasticity/QuadraticEllipsoid"]
 	path = FiniteElasticity/QuadraticEllipsoid
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_quadraticellipsoid
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_quadraticellipsoid
 [submodule "FiniteElasticity/Cantilever/Fortran"]
 	path = FiniteElasticity/Cantilever/Fortran
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_cantilever_fortran
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_cantilever_fortran
 [submodule "FiniteElasticity/ActiveContraction"]
 	path = FiniteElasticity/ActiveContraction
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_activecontraction
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_activecontraction
 [submodule "FiniteElasticity/UniAxialExtension/Fortran"]
 	path = FiniteElasticity/UniAxialExtension/Fortran
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_uniaxialextension_fortran
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_uniaxialextension_fortran
 [submodule "FiniteElasticity/CylinderInflation"]
 	path = FiniteElasticity/CylinderInflation
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_cylinderinflation
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_cylinderinflation
 [submodule "FiniteElasticity/QuadraticEllipsoidCosta"]
 	path = FiniteElasticity/QuadraticEllipsoidCosta
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_quadraticellipsoidcosta
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_quadraticellipsoidcosta
 [submodule "FiniteElasticity/CuboidGeneric"]
 	path = FiniteElasticity/CuboidGeneric
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_cuboidgeneric
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_cuboidgeneric
 [submodule "EmbeddedMesh/EmbeddedMeshBasicWithMap"]
 	path = EmbeddedMesh/EmbeddedMeshBasicWithMap
-	url = https://github.com/OpenCMISS-Examples/embeddedmesh_embeddedmeshbasicwithmap
+	url = git@github.com:OpenCMISS-Examples/embeddedmesh_embeddedmeshbasicwithmap
 [submodule "EmbeddedMesh/EmbeddedMeshBasic"]
 	path = EmbeddedMesh/EmbeddedMeshBasic
-	url = https://github.com/OpenCMISS-Examples/embeddedmesh_embeddedmeshbasic
+	url = git@github.com:OpenCMISS-Examples/embeddedmesh_embeddedmeshbasic
 [submodule "LinearElasticity/Analytic/Extension"]
 	path = LinearElasticity/Analytic/Extension
-	url = https://github.com/OpenCMISS-Examples/linearelasticity_analytic_extension
+	url = git@github.com:OpenCMISS-Examples/linearelasticity_analytic_extension
 [submodule "LinearElasticity/Analytic/CantileverBeam"]
 	path = LinearElasticity/Analytic/CantileverBeam
-	url = https://github.com/OpenCMISS-Examples/linearelasticity_analytic_cantileverbeam
+	url = git@github.com:OpenCMISS-Examples/linearelasticity_analytic_cantileverbeam
 [submodule "LinearElasticity/2DExtensionPlaneStressLagrangeBasis"]
 	path = LinearElasticity/2DExtensionPlaneStressLagrangeBasis
-	url = https://github.com/OpenCMISS-Examples/linearelasticity_2dextensionplanestresslagrangebasis
+	url = git@github.com:OpenCMISS-Examples/linearelasticity_2dextensionplanestresslagrangebasis
 [submodule "LinearElasticity/3DExtensionHermiteBasis"]
 	path = LinearElasticity/3DExtensionHermiteBasis
-	url = https://github.com/OpenCMISS-Examples/linearelasticity_3dextensionhermitebasis
+	url = git@github.com:OpenCMISS-Examples/linearelasticity_3dextensionhermitebasis
 [submodule "LinearElasticity/3DExtensionLagrangeBasis"]
 	path = LinearElasticity/3DExtensionLagrangeBasis
-	url = https://github.com/OpenCMISS-Examples/linearelasticity_3dextensionlagrangebasis
+	url = git@github.com:OpenCMISS-Examples/linearelasticity_3dextensionlagrangebasis
 [submodule "cellml/Fortran"]
 	path = cellml/Fortran
-	url = https://github.com/OpenCMISS-Examples/cellml_fortran
+	url = git@github.com:OpenCMISS-Examples/cellml_fortran
 [submodule "define-geometry-and-export"]
 	path = define-geometry-and-export
-	url = https://github.com/OpenCMISS-Examples/define-geometry-and-export
+	url = git@github.com:OpenCMISS-Examples/define-geometry-and-export
 [submodule "DataProjection/3DRectangularCartesian"]
 	path = DataProjection/3DRectangularCartesian
-	url = https://github.com/OpenCMISS-Examples/dataprojection_3drectangularcartesian
+	url = git@github.com:OpenCMISS-Examples/dataprojection_3drectangularcartesian
 [submodule "DataProjection/1DRectangularCartesian"]
 	path = DataProjection/1DRectangularCartesian
-	url = https://github.com/OpenCMISS-Examples/dataprojection_1drectangularcartesian
+	url = git@github.com:OpenCMISS-Examples/dataprojection_1drectangularcartesian
 [submodule "DataProjection/2DRectangularCartesian"]
 	path = DataProjection/2DRectangularCartesian
-	url = https://github.com/OpenCMISS-Examples/dataprojection_2drectangularcartesian
+	url = git@github.com:OpenCMISS-Examples/dataprojection_2drectangularcartesian
 [submodule "simple-field-manipulation-direct-access"]
 	path = simple-field-manipulation-direct-access
-	url = https://github.com/OpenCMISS-Examples/simple-field-manipulation-direct-access
+	url = git@github.com:OpenCMISS-Examples/simple-field-manipulation-direct-access
 [submodule "LagrangeSimplexMesh"]
 	path = LagrangeSimplexMesh
-	url = https://github.com/OpenCMISS-Examples/lagrangesimplexmesh
+	url = git@github.com:OpenCMISS-Examples/lagrangesimplexmesh
 [submodule "Meshes/Versions3DLaplace"]
 	path = Meshes/Versions3DLaplace
-	url = https://github.com/OpenCMISS-Examples/meshes_versions3dlaplace
+	url = git@github.com:OpenCMISS-Examples/meshes_versions3dlaplace
 [submodule "Meshes/MultipleMeshComponents"]
 	path = Meshes/MultipleMeshComponents
-	url = https://github.com/OpenCMISS-Examples/meshes_multiplemeshcomponents
+	url = git@github.com:OpenCMISS-Examples/meshes_multiplemeshcomponents
 [submodule "Meshes/1DCubicHermite"]
 	path = Meshes/1DCubicHermite
-	url = https://github.com/OpenCMISS-Examples/meshes_1dcubichermite
+	url = git@github.com:OpenCMISS-Examples/meshes_1dcubichermite
 [submodule "Meshes/Simplex/Tetrahedral/Linear"]
 	path = Meshes/Simplex/Tetrahedral/Linear
-	url = https://github.com/OpenCMISS-Examples/meshes_simplex_tetrahedral_linear
+	url = git@github.com:OpenCMISS-Examples/meshes_simplex_tetrahedral_linear
 [submodule "Meshes/Simplex/Tetrahedral/Quadratic"]
 	path = Meshes/Simplex/Tetrahedral/Quadratic
-	url = https://github.com/OpenCMISS-Examples/meshes_simplex_tetrahedral_quadratic
+	url = git@github.com:OpenCMISS-Examples/meshes_simplex_tetrahedral_quadratic
 [submodule "Meshes/Simplex/Tetrahedral/Cubic"]
 	path = Meshes/Simplex/Tetrahedral/Cubic
-	url = https://github.com/OpenCMISS-Examples/meshes_simplex_tetrahedral_cubic
+	url = git@github.com:OpenCMISS-Examples/meshes_simplex_tetrahedral_cubic
 [submodule "Meshes/Simplex/Triangular/QuadraticSimplexManual"]
 	path = Meshes/Simplex/Triangular/QuadraticSimplexManual
-	url = https://github.com/OpenCMISS-Examples/meshes_simplex_triangular_quadraticsimplexmanual
+	url = git@github.com:OpenCMISS-Examples/meshes_simplex_triangular_quadraticsimplexmanual
 [submodule "Meshes/Simplex/Triangular/Linear"]
 	path = Meshes/Simplex/Triangular/Linear
-	url = https://github.com/OpenCMISS-Examples/meshes_simplex_triangular_linear
+	url = git@github.com:OpenCMISS-Examples/meshes_simplex_triangular_linear
 [submodule "Meshes/Simplex/Triangular/Quadratic"]
 	path = Meshes/Simplex/Triangular/Quadratic
-	url = https://github.com/OpenCMISS-Examples/meshes_simplex_triangular_quadratic
+	url = git@github.com:OpenCMISS-Examples/meshes_simplex_triangular_quadratic
 [submodule "Meshes/Simplex/Triangular/Cubic"]
 	path = Meshes/Simplex/Triangular/Cubic
-	url = https://github.com/OpenCMISS-Examples/meshes_simplex_triangular_cubic
+	url = git@github.com:OpenCMISS-Examples/meshes_simplex_triangular_cubic
 [submodule "Meshes/MoreComplexMeshC"]
 	path = Meshes/MoreComplexMeshC
-	url = https://github.com/OpenCMISS-Examples/meshes_morecomplexmeshc
+	url = git@github.com:OpenCMISS-Examples/meshes_morecomplexmeshc
 [submodule "Meshes/MoreComplexMesh"]
 	path = Meshes/MoreComplexMesh
-	url = https://github.com/OpenCMISS-Examples/meshes_morecomplexmesh
+	url = git@github.com:OpenCMISS-Examples/meshes_morecomplexmesh
 [submodule "DataAssimilation/DataAssimilationInflationGuccione"]
 	path = DataAssimilation/DataAssimilationInflationGuccione
-	url = https://github.com/OpenCMISS-Examples/dataassimilation_dataassimilationinflationguccione
+	url = git@github.com:OpenCMISS-Examples/dataassimilation_dataassimilationinflationguccione
 [submodule "MultiPhysics/CoupledDiffusionDiffusion/CoupledDiffusionDiffusion"]
 	path = MultiPhysics/CoupledDiffusionDiffusion/CoupledDiffusionDiffusion
-	url = https://github.com/OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_coupleddiffusiondiffusion
+	url = git@github.com:OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_coupleddiffusiondiffusion
 [submodule "MultiPhysics/CoupledDiffusionDiffusion/MonolithicSchemeTest_FieldML"]
 	path = MultiPhysics/CoupledDiffusionDiffusion/MonolithicSchemeTest_FieldML
-	url = https://github.com/OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_monolithicschemetest_fieldml
+	url = git@github.com:OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_monolithicschemetest_fieldml
 [submodule "MultiPhysics/CoupledDiffusionDiffusion/MonolithicSchemeTest"]
 	path = MultiPhysics/CoupledDiffusionDiffusion/MonolithicSchemeTest
-	url = https://github.com/OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_monolithicschemetest
+	url = git@github.com:OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_monolithicschemetest
 [submodule "MultiPhysics/CoupledDiffusionDiffusion/MonolithicSchemeTestAnalytic"]
 	path = MultiPhysics/CoupledDiffusionDiffusion/MonolithicSchemeTestAnalytic
-	url = https://github.com/OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_monolithicschemetestanalytic
+	url = git@github.com:OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_monolithicschemetestanalytic
 [submodule "MultiPhysics/CoupledDiffusionDiffusion/MonolithicAnalyticTestThreeCompThreeDim"]
 	path = MultiPhysics/CoupledDiffusionDiffusion/MonolithicAnalyticTestThreeCompThreeDim
-	url = https://github.com/OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_monolithicanalytictestthreecompthreedim
+	url = git@github.com:OpenCMISS-Examples/multiphysics_coupleddiffusiondiffusion_monolithicanalytictestthreecompthreedim
 [submodule "MultiPhysics/MultiCompTransport/MultiCompAdvectionDiffusion/MonolithicSchemeAdvectionDiffusion_FieldML"]
 	path = MultiPhysics/MultiCompTransport/MultiCompAdvectionDiffusion/MonolithicSchemeAdvectionDiffusion_FieldML
-	url = https://github.com/OpenCMISS-Examples/multiphysics_multicomptransport_multicompadvectiondiffusion_monolithicschemeadvectiondiffu_ca762
+	url = git@github.com:OpenCMISS-Examples/multiphysics_multicomptransport_multicompadvectiondiffusion_monolithicschemeadvectiondiffu_ca762
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityFluidPressure/StaticExtension"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityFluidPressure/StaticExtension
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticityfluidpressure_staticextension
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticityfluidpressure_staticextension
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityFluidPressure/Cantilever"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityFluidPressure/Cantilever
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticityfluidpressure_cantilever
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticityfluidpressure_cantilever
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/CylinderInflationDrivenMultiCompDarcy"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/CylinderInflationDrivenMultiCompDarcy
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_cylinderinflationdrivenmulticompdarcy
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_cylinderinflationdrivenmulticompdarcy
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcyIO3"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcyIO3
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcyio3
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcyio3
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/InriaModel"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/InriaModel
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_inriamodel
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_inriamodel
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcy"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcy
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcy
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcy
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/SameRegionSameMesh"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/SameRegionSameMesh
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_sameregionsamemesh
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_sameregionsamemesh
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenMultiCompDarcyIO"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenMultiCompDarcyIO
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivenmulticompd_51d37
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivenmulticompd_51d37
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompElastDrivenDarcy_AnalyticDarcy"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompElastDrivenDarcy_AnalyticDarcy
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompelastdrivendarcy_analyticdarcy
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompelastdrivendarcy_analyticdarcy
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/CylinderInflationDrivenDarcy"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/CylinderInflationDrivenDarcy
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_cylinderinflationdrivendarcy
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_cylinderinflationdrivendarcy
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcyMatSolve"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcyMatSolve
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcymatso_e597c
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcymatso_e597c
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/QuadraticEllipsoidDrivenMultiCompDarcy"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/QuadraticEllipsoidDrivenMultiCompDarcy
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_quadraticellipsoiddrivenmulticompdarcy
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_quadraticellipsoiddrivenmulticompdarcy
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/QuadraticEllipsoidDrivenDarcy"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/QuadraticEllipsoidDrivenDarcy
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_quadraticellipsoiddrivendarcy
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_quadraticellipsoiddrivendarcy
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcyIO2"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcyIO2
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcyio2
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcyio2
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenMultiCompDarcy"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenMultiCompDarcy
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivenmulticompd_eaadd
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivenmulticompd_eaadd
 [submodule "MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcyIO"]
 	path = MultiPhysics/Poroelasticity/FiniteElasticityDarcy/IncompressibleElasticityDrivenDarcyIO
-	url = https://github.com/OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcyio
+	url = git@github.com:OpenCMISS-Examples/multiphysics_poroelasticity_finiteelasticitydarcy_incompressibleelasticitydrivendarcyio
 [submodule "MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticitySameMesh"]
 	path = MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticitySameMesh
-	url = https://github.com/OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticitysamemesh
+	url = git@github.com:OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticitysamemesh
 [submodule "MultiPhysics/CoupledDiffusionAdvectionDiffusion"]
 	path = MultiPhysics/CoupledDiffusionAdvectionDiffusion
-	url = https://github.com/OpenCMISS-Examples/multiphysics_coupleddiffusionadvectiondiffusion
+	url = git@github.com:OpenCMISS-Examples/multiphysics_coupleddiffusionadvectiondiffusion
 [submodule "TwoRegions"]
 	path = TwoRegions
-	url = https://github.com/OpenCMISS-Examples/tworegions
+	url = git@github.com:OpenCMISS-Examples/tworegions
 [submodule "FluidMechanics/Burgers/GeneralisedBurgers"]
 	path = FluidMechanics/Burgers/GeneralisedBurgers
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_burgers_generalisedburgers
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_burgers_generalisedburgers
 [submodule "FluidMechanics/Burgers/StaticBurgers"]
 	path = FluidMechanics/Burgers/StaticBurgers
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_burgers_staticburgers
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_burgers_staticburgers
 [submodule "FluidMechanics/Burgers/Burgers"]
 	path = FluidMechanics/Burgers/Burgers
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_burgers_burgers
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_burgers_burgers
 [submodule "FluidMechanics/Poiseuille/Static"]
 	path = FluidMechanics/Poiseuille/Static
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_poiseuille_static
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_poiseuille_static
 [submodule "FluidMechanics/Darcy/Analytic"]
 	path = FluidMechanics/Darcy/Analytic
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_darcy_analytic
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_darcy_analytic
 [submodule "FluidMechanics/Darcy/MultiCompartmentStaticDarcy"]
 	path = FluidMechanics/Darcy/MultiCompartmentStaticDarcy
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_darcy_multicompartmentstaticdarcy
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_darcy_multicompartmentstaticdarcy
 [submodule "FluidMechanics/Darcy/Dynamic"]
 	path = FluidMechanics/Darcy/Dynamic
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_darcy_dynamic
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_darcy_dynamic
 [submodule "FluidMechanics/Darcy/QuasistaticMaterial"]
 	path = FluidMechanics/Darcy/QuasistaticMaterial
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_darcy_quasistaticmaterial
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_darcy_quasistaticmaterial
 [submodule "FluidMechanics/Darcy/temp_memory_issue"]
 	path = FluidMechanics/Darcy/temp_memory_issue
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_darcy_temp_memory_issue
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_darcy_temp_memory_issue
 [submodule "FluidMechanics/Darcy/Static"]
 	path = FluidMechanics/Darcy/Static
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_darcy_static
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_darcy_static
 [submodule "FluidMechanics/SCRATCH/DynamicNavierStokesInParallel"]
 	path = FluidMechanics/SCRATCH/DynamicNavierStokesInParallel
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_scratch_dynamicnavierstokesinparallel
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_scratch_dynamicnavierstokesinparallel
 [submodule "FluidMechanics/NavierStokes/temp_tests/DynamicTest_theta_1.0"]
 	path = FluidMechanics/NavierStokes/temp_tests/DynamicTest_theta_1.0
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_temp_tests_dynamictest_theta_1.0
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_temp_tests_dynamictest_theta_1.0
 [submodule "FluidMechanics/NavierStokes/temp_tests/DynamicTest_theta_0.5"]
 	path = FluidMechanics/NavierStokes/temp_tests/DynamicTest_theta_0.5
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_temp_tests_dynamictest_theta_0.5
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_temp_tests_dynamictest_theta_0.5
 [submodule "FluidMechanics/NavierStokes/LidDrivenCavity"]
 	path = FluidMechanics/NavierStokes/LidDrivenCavity
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_liddrivencavity
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_liddrivencavity
 [submodule "FluidMechanics/NavierStokes/TaylorGreen"]
 	path = FluidMechanics/NavierStokes/TaylorGreen
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_taylorgreen
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_taylorgreen
 [submodule "FluidMechanics/NavierStokes/Poiseuille/2DChannel/Static"]
 	path = FluidMechanics/NavierStokes/Poiseuille/2DChannel/Static
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_poiseuille_2dchannel_static
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_poiseuille_2dchannel_static
 [submodule "FluidMechanics/NavierStokes/Coupled1DCellML/Fortran"]
 	path = FluidMechanics/NavierStokes/Coupled1DCellML/Fortran
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_coupled1dcellml_fortran
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_coupled1dcellml_fortran
 [submodule "FluidMechanics/NavierStokes/RoutineCheck/Dynamic"]
 	path = FluidMechanics/NavierStokes/RoutineCheck/Dynamic
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_dynamic
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_dynamic
 [submodule "FluidMechanics/NavierStokes/RoutineCheck/ParallelDynamic"]
 	path = FluidMechanics/NavierStokes/RoutineCheck/ParallelDynamic
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_paralleldynamic
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_paralleldynamic
 [submodule "FluidMechanics/NavierStokes/RoutineCheck/ParallelStatic"]
 	path = FluidMechanics/NavierStokes/RoutineCheck/ParallelStatic
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_parallelstatic
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_parallelstatic
 [submodule "FluidMechanics/NavierStokes/RoutineCheck/ALE"]
 	path = FluidMechanics/NavierStokes/RoutineCheck/ALE
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_ale
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_ale
 [submodule "FluidMechanics/NavierStokes/RoutineCheck/Static"]
 	path = FluidMechanics/NavierStokes/RoutineCheck/Static
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_static
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_routinecheck_static
 [submodule "FluidMechanics/NavierStokes/SupgChannel"]
 	path = FluidMechanics/NavierStokes/SupgChannel
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_supgchannel
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_supgchannel
 [submodule "FluidMechanics/NavierStokes/Static_FieldML"]
 	path = FluidMechanics/NavierStokes/Static_FieldML
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_static_fieldml
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_static_fieldml
 [submodule "FluidMechanics/NavierStokes/42Master"]
 	path = FluidMechanics/NavierStokes/42Master
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_navierstokes_42master
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_navierstokes_42master
 [submodule "FluidMechanics/Stokes/RoutineCheck/Dynamic"]
 	path = FluidMechanics/Stokes/RoutineCheck/Dynamic
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_stokes_routinecheck_dynamic
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_stokes_routinecheck_dynamic
 [submodule "FluidMechanics/Stokes/RoutineCheck/ALE"]
 	path = FluidMechanics/Stokes/RoutineCheck/ALE
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_stokes_routinecheck_ale
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_stokes_routinecheck_ale
 [submodule "FluidMechanics/Stokes/RoutineCheck/Static"]
 	path = FluidMechanics/Stokes/RoutineCheck/Static
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_stokes_routinecheck_static
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_stokes_routinecheck_static
 [submodule "FluidMechanics/Stokes/42Master"]
 	path = FluidMechanics/Stokes/42Master
-	url = https://github.com/OpenCMISS-Examples/fluidmechanics_stokes_42master
+	url = git@github.com:OpenCMISS-Examples/fluidmechanics_stokes_42master
 [submodule "Bioelectrics/MonodomainTP06"]
 	path = Bioelectrics/MonodomainTP06
-	url = https://github.com/OpenCMISS-Examples/bioelectrics_monodomaintp06
+	url = git@github.com:OpenCMISS-Examples/bioelectrics_monodomaintp06
 [submodule "Bioelectrics/Bidomain"]
 	path = Bioelectrics/Bidomain
-	url = https://github.com/OpenCMISS-Examples/bioelectrics_bidomain
+	url = git@github.com:OpenCMISS-Examples/bioelectrics_bidomain
 [submodule "Bioelectrics/Monodomain/Fortran"]
 	path = Bioelectrics/Monodomain/Fortran
-	url = https://github.com/OpenCMISS-Examples/bioelectrics_monodomain_fortran
+	url = git@github.com:OpenCMISS-Examples/bioelectrics_monodomain_fortran
 [submodule "Bioelectrics/MonodomainBuenoOrovio"]
 	path = Bioelectrics/MonodomainBuenoOrovio
-	url = https://github.com/OpenCMISS-Examples/bioelectrics_monodomainbuenoorovio
+	url = git@github.com:OpenCMISS-Examples/bioelectrics_monodomainbuenoorovio
 [submodule "Bioelectrics/Monodomain_Shiqiang"]
 	path = Bioelectrics/Monodomain_Shiqiang
-	url = https://github.com/OpenCMISS-Examples/bioelectrics_monodomain_shiqiang
+	url = git@github.com:OpenCMISS-Examples/bioelectrics_monodomain_shiqiang
 [submodule "Bioelectrics/MonodomainCUDA"]
 	path = Bioelectrics/MonodomainCUDA
-	url = https://github.com/OpenCMISS-Examples/bioelectrics_monodomaincuda
+	url = git@github.com:OpenCMISS-Examples/bioelectrics_monodomaincuda
 [submodule "ClassicalField/Laplace/Laplace/Fortran"]
 	path = ClassicalField/Laplace/Laplace/Fortran
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_laplace_fortran
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_laplace_fortran
 [submodule "ClassicalField/Laplace/Embedded2DLaplace"]
 	path = ClassicalField/Laplace/Embedded2DLaplace
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_embedded2dlaplace
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_embedded2dlaplace
 [submodule "ClassicalField/Laplace/Embedded1DLaplace"]
 	path = ClassicalField/Laplace/Embedded1DLaplace
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_embedded1dlaplace
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_embedded1dlaplace
 [submodule "ClassicalField/Laplace/LaplaceEllipsoid_FieldML"]
 	path = ClassicalField/Laplace/LaplaceEllipsoid_FieldML
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_laplaceellipsoid_fieldml
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_laplaceellipsoid_fieldml
 [submodule "ClassicalField/Laplace/AnalyticLaplace"]
 	path = ClassicalField/Laplace/AnalyticLaplace
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_analyticlaplace
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_analyticlaplace
 [submodule "ClassicalField/Laplace/ParallelLaplace"]
 	path = ClassicalField/Laplace/ParallelLaplace
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_parallellaplace
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_parallellaplace
 [submodule "ClassicalField/Laplace/LaplaceEllipsoid"]
 	path = ClassicalField/Laplace/LaplaceEllipsoid
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_laplaceellipsoid
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_laplaceellipsoid
 [submodule "ClassicalField/Laplace/GeneralisedLaplace/Fortran"]
 	path = ClassicalField/Laplace/GeneralisedLaplace/Fortran
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_generalisedlaplace_fortran
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_generalisedlaplace_fortran
 [submodule "ClassicalField/Laplace/42Master"]
 	path = ClassicalField/Laplace/42Master
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_42master
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_42master
 [submodule "ClassicalField/Laplace/NumberLaplace"]
 	path = ClassicalField/Laplace/NumberLaplace
-	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_numberlaplace
+	url = git@github.com:OpenCMISS-Examples/classicalfield_laplace_numberlaplace
 [submodule "ClassicalField/Helmholtz/AnalyticHelmholtz"]
 	path = ClassicalField/Helmholtz/AnalyticHelmholtz
-	url = https://github.com/OpenCMISS-Examples/classicalfield_helmholtz_analytichelmholtz
+	url = git@github.com:OpenCMISS-Examples/classicalfield_helmholtz_analytichelmholtz
 [submodule "ClassicalField/Helmholtz/Helmholtz"]
 	path = ClassicalField/Helmholtz/Helmholtz
-	url = https://github.com/OpenCMISS-Examples/classicalfield_helmholtz_helmholtz
+	url = git@github.com:OpenCMISS-Examples/classicalfield_helmholtz_helmholtz
 [submodule "ClassicalField/Hamilton_Jacobi/GeodesicEx1"]
 	path = ClassicalField/Hamilton_Jacobi/GeodesicEx1
-	url = https://github.com/OpenCMISS-Examples/classicalfield_hamilton_jacobi_geodesicex1
+	url = git@github.com:OpenCMISS-Examples/classicalfield_hamilton_jacobi_geodesicex1
 [submodule "ClassicalField/Hamilton_Jacobi/TwoElmnTet"]
 	path = ClassicalField/Hamilton_Jacobi/TwoElmnTet
-	url = https://github.com/OpenCMISS-Examples/classicalfield_hamilton_jacobi_twoelmntet
+	url = git@github.com:OpenCMISS-Examples/classicalfield_hamilton_jacobi_twoelmntet
 [submodule "ClassicalField/Poisson/NonlinearPoisson"]
 	path = ClassicalField/Poisson/NonlinearPoisson
-	url = https://github.com/OpenCMISS-Examples/classicalfield_poisson_nonlinearpoisson
+	url = git@github.com:OpenCMISS-Examples/classicalfield_poisson_nonlinearpoisson
 [submodule "ClassicalField/Poisson/AnalyticNonlinearPoisson"]
 	path = ClassicalField/Poisson/AnalyticNonlinearPoisson
-	url = https://github.com/OpenCMISS-Examples/classicalfield_poisson_analyticnonlinearpoisson
+	url = git@github.com:OpenCMISS-Examples/classicalfield_poisson_analyticnonlinearpoisson
 [submodule "ClassicalField/Poisson/ExtracellularBidomain/Fortran"]
 	path = ClassicalField/Poisson/ExtracellularBidomain/Fortran
-	url = https://github.com/OpenCMISS-Examples/classicalfield_poisson_extracellularbidomain_fortran
+	url = git@github.com:OpenCMISS-Examples/classicalfield_poisson_extracellularbidomain_fortran
 [submodule "ClassicalField/Poisson/42Master"]
 	path = ClassicalField/Poisson/42Master
-	url = https://github.com/OpenCMISS-Examples/classicalfield_poisson_42master
+	url = git@github.com:OpenCMISS-Examples/classicalfield_poisson_42master
 [submodule "ClassicalField/Diffusion/Analytic1DDiffusion"]
 	path = ClassicalField/Diffusion/Analytic1DDiffusion
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_analytic1ddiffusion
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_analytic1ddiffusion
 [submodule "ClassicalField/Diffusion/DiffusionConstantSource"]
 	path = ClassicalField/Diffusion/DiffusionConstantSource
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_diffusionconstantsource
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_diffusionconstantsource
 [submodule "ClassicalField/Diffusion/DiffusionExponentialSource"]
 	path = ClassicalField/Diffusion/DiffusionExponentialSource
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_diffusionexponentialsource
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_diffusionexponentialsource
 [submodule "ClassicalField/Diffusion/CubicConvergenceTest"]
 	path = ClassicalField/Diffusion/CubicConvergenceTest
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_cubicconvergencetest
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_cubicconvergencetest
 [submodule "ClassicalField/Diffusion/Diffusion"]
 	path = ClassicalField/Diffusion/Diffusion
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_diffusion
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_diffusion
 [submodule "ClassicalField/Diffusion/DiffusionIO_ALE"]
 	path = ClassicalField/Diffusion/DiffusionIO_ALE
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_diffusionio_ale
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_diffusionio_ale
 [submodule "ClassicalField/Diffusion/DiffusionLinearSource"]
 	path = ClassicalField/Diffusion/DiffusionLinearSource
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_diffusionlinearsource
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_diffusionlinearsource
 [submodule "ClassicalField/Diffusion/DiffusionQuadraticSource"]
 	path = ClassicalField/Diffusion/DiffusionQuadraticSource
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_diffusionquadraticsource
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_diffusionquadraticsource
 [submodule "ClassicalField/Diffusion/LinearConvergenceTest"]
 	path = ClassicalField/Diffusion/LinearConvergenceTest
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_linearconvergencetest
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_linearconvergencetest
 [submodule "ClassicalField/Diffusion/QuadraticConvergenceTest"]
 	path = ClassicalField/Diffusion/QuadraticConvergenceTest
-	url = https://github.com/OpenCMISS-Examples/classicalfield_diffusion_quadraticconvergencetest
+	url = git@github.com:OpenCMISS-Examples/classicalfield_diffusion_quadraticconvergencetest
 [submodule "ClassicalField/AdvectionDiffusion/AdvectionDiffusionIO_ALE"]
 	path = ClassicalField/AdvectionDiffusion/AdvectionDiffusionIO_ALE
-	url = https://github.com/OpenCMISS-Examples/classicalfield_advectiondiffusion_advectiondiffusionio_ale
+	url = git@github.com:OpenCMISS-Examples/classicalfield_advectiondiffusion_advectiondiffusionio_ale
 [submodule "ClassicalField/AdvectionDiffusion/AdvectionDiffusionIO"]
 	path = ClassicalField/AdvectionDiffusion/AdvectionDiffusionIO
-	url = https://github.com/OpenCMISS-Examples/classicalfield_advectiondiffusion_advectiondiffusionio
+	url = git@github.com:OpenCMISS-Examples/classicalfield_advectiondiffusion_advectiondiffusionio
 [submodule "ClassicalField/AdvectionDiffusion/AdvectionDiffusionIO_BCs"]
 	path = ClassicalField/AdvectionDiffusion/AdvectionDiffusionIO_BCs
-	url = https://github.com/OpenCMISS-Examples/classicalfield_advectiondiffusion_advectiondiffusionio_bcs
+	url = git@github.com:OpenCMISS-Examples/classicalfield_advectiondiffusion_advectiondiffusionio_bcs
 [submodule "ClassicalField/AdvectionDiffusion/StaticAdvectionDiffusionSUPG"]
 	path = ClassicalField/AdvectionDiffusion/StaticAdvectionDiffusionSUPG
-	url = https://github.com/OpenCMISS-Examples/classicalfield_advectiondiffusion_staticadvectiondiffusionsupg
+	url = git@github.com:OpenCMISS-Examples/classicalfield_advectiondiffusion_staticadvectiondiffusionsupg
 [submodule "ClassicalField/AdvectionDiffusion/StaticAdvectionDiffusion"]
 	path = ClassicalField/AdvectionDiffusion/StaticAdvectionDiffusion
-	url = https://github.com/OpenCMISS-Examples/classicalfield_advectiondiffusion_staticadvectiondiffusion
+	url = git@github.com:OpenCMISS-Examples/classicalfield_advectiondiffusion_staticadvectiondiffusion
 [submodule "ClassicalField/AdvectionDiffusion/StaticAdvectionDiffusion_FieldML"]
 	path = ClassicalField/AdvectionDiffusion/StaticAdvectionDiffusion_FieldML
-	url = https://github.com/OpenCMISS-Examples/classicalfield_advectiondiffusion_staticadvectiondiffusion_fieldml
+	url = git@github.com:OpenCMISS-Examples/classicalfield_advectiondiffusion_staticadvectiondiffusion_fieldml
 [submodule "ClassicalField/ReactionDiffusion/CellMLSplitReactionDiffusion1D"]
 	path = ClassicalField/ReactionDiffusion/CellMLSplitReactionDiffusion1D
-	url = https://github.com/OpenCMISS-Examples/classicalfield_reactiondiffusion_cellmlsplitreactiondiffusion1d
+	url = git@github.com:OpenCMISS-Examples/classicalfield_reactiondiffusion_cellmlsplitreactiondiffusion1d
 [submodule "ClassicalField/ReactionDiffusion/ReactionDiffusionConstantSource1D"]
 	path = ClassicalField/ReactionDiffusion/ReactionDiffusionConstantSource1D
-	url = https://github.com/OpenCMISS-Examples/classicalfield_reactiondiffusion_reactiondiffusionconstantsource1d
+	url = git@github.com:OpenCMISS-Examples/classicalfield_reactiondiffusion_reactiondiffusionconstantsource1d
 [submodule "ClassicalField/ReactionDiffusion/ReactionDiffusionNoSource1D"]
 	path = ClassicalField/ReactionDiffusion/ReactionDiffusionNoSource1D
-	url = https://github.com/OpenCMISS-Examples/classicalfield_reactiondiffusion_reactiondiffusionnosource1d
+	url = git@github.com:OpenCMISS-Examples/classicalfield_reactiondiffusion_reactiondiffusionnosource1d
 [submodule "FiniteElasticity/RightBiceps/Fortran"]
 	path = FiniteElasticity/RightBiceps/Fortran
-	url = https://github.com/OpenCMISS-Examples/finiteelasticity_rightbiceps_fortran
+	url = git@github.com:OpenCMISS-Examples/finiteelasticity_rightbiceps_fortran
 [submodule "cellml/model-integration/Fortran"]
 	path = cellml/model-integration/Fortran
-	url = https://github.com/OpenCMISS-Examples/cellml_model-integration_fortran
+	url = git@github.com:OpenCMISS-Examples/cellml_model-integration_fortran
 [submodule "MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/simple_geometry"]
 	path = MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/simple_geometry
-	url = https://github.com/OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_simple_geomet_d78fb
+	url = git@github.com:OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_simple_geomet_d78fb
 [submodule "MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/while_loop"]
 	path = MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/while_loop
-	url = https://github.com/OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_while_loop
+	url = git@github.com:OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_while_loop
 [submodule "MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/titin_10"]
 	path = MultiPhysics/BioelectricFiniteElasticity/GudunovMonodomainElasticity1D3DMesh/titin_10
-	url = https://github.com/OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_titin_10
+	url = git@github.com:OpenCMISS-Examples/multiphysics_bioelectricfiniteelasticity_gudunovmonodomainelasticity1d3dmesh_titin_10
+[submodule "Meshes/LagrangeSimplexMesh"]
+	path = Meshes/LagrangeSimplexMesh
+	url = https://github.com/OpenCMISS-Examples/meshes_lagrangesimplexmesh
+[submodule "ClassicalField/Laplace/SimplexLaplace/Linear"]
+	path = ClassicalField/Laplace/SimplexLaplace/Linear
+	url = https://github.com/OpenCMISS-Examples/classicalfield_laplace_simplexlaplace_linear
